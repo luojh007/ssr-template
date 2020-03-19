@@ -9,6 +9,8 @@ const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
 const TerserJSPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const ReactLoadablePlugin = require('react-loadable/webpack').ReactLoadablePlugin;
+
 function resolve(dir) {
   return path.join(__dirname, "..", dir);
 }
@@ -20,8 +22,8 @@ module.exports = merge(baseWebpack, {
     filename: 'js/[name].js',
     chunkFilename: 'js/[name]/[chunkhash].js' // [name] bundle-loader 的name配置值
   },
-   //压缩js,css
-   optimization: {   
+  //压缩js,css
+  optimization: {
     minimizer: [
       new TerserJSPlugin({
         terserOptions: {
@@ -32,6 +34,7 @@ module.exports = merge(baseWebpack, {
       }),
       new OptimizeCssAssetsPlugin({})
     ],
+    //代码分割，按需加载
     splitChunks: {
       chunks: 'all',
     },
@@ -130,6 +133,10 @@ module.exports = merge(baseWebpack, {
     new MiniCssExtractPlugin({
       filename: "./css/[name].css",
       chunkFilename: "./css/[name].css"
+    }),
+    //服务端按需加载
+    new ReactLoadablePlugin({
+      filename: './dist/react-loadable.json',
     }),
   ],
 }

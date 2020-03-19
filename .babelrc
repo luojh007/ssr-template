@@ -13,7 +13,8 @@
     "@babel/preset-react"
   ],
   "plugins": [
-    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-syntax-dynamic-import",    
+    "react-loadable/babel",   
     [
       "@babel/plugin-proposal-decorators",
       {
@@ -35,6 +36,6 @@
         "style": true
       }
     ],
-    "@babel/plugin-transform-modules-commonjs"
+    "@babel/plugin-transform-modules-commonjs",
   ]
 }

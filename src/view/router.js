@@ -2,10 +2,11 @@ import React from 'react';
 import { renderRoutes } from 'react-router-config'
 import Loadable from 'react-loadable';
 import ScrollToTop from '../components/ScrollToTop'
-import { Spin } from 'antd';
+const { Spin } = require('antd')
 const Root = ({ route }) => (
   <ScrollToTop>
-      {renderRoutes(route.routes)}
+    <div>公共路由</div>
+    {renderRoutes(route.routes)}
   </ScrollToTop>
 )
 const Loading = ({ error, pastDelay }) => {
@@ -30,12 +31,33 @@ function RootRouter() {
         path: '/index.html',
         component: Loadable({
           loader: () => import('./routes'),
+          modules: ['./routes'],
+          webpack: () => [require.resolveWeak('./routes')],
+          loading: Loading,
+        })
+      },
+      {
+        path: '/a.html',
+        component: Loadable({
+          loader: () => import('./routes/a'),
+          modules: ['./routes/a'],
+          webpack: () => [require.resolveWeak('./routes/a')],
+          loading: Loading,
+        })
+      },
+      {
+        path: '/b.html',
+        component: Loadable({
+          loader: () => import('./routes/b'),
+          modules: ['./routes/b'],
+          webpack: () => [require.resolveWeak('./routes/b')],
           loading: Loading,
         })
       },
       ]
     }
   ]
-  return <div>{renderRoutes(routes)}</div>
+  return <div>{renderRoutes(routes)}</div> 
 }
+
 export default RootRouter;

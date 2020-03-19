@@ -1,0 +1,1118 @@
+{
+  "undefined": [
+    {
+      "id": 0,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 1,
+      "name": "./node_modules/react/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 2,
+      "name": "./node_modules/warning/warning.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 3,
+      "name": "./node_modules/invariant/browser.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 6,
+      "name": "dll-reference vendorsReact",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 27,
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 73,
+      "name": "./node_modules/redux/es/redux.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 85,
+      "name": "./node_modules/react-dom/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 86,
+      "name": "./node_modules/react-redux/es/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 90,
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    },
+    {
+      "id": 130,
+      "name": "./node_modules/antd/es/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "./routes/a": [
+    {
+      "id": 45,
+      "name": "./src/view/routes/a.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "./routes/b": [
+    {
+      "id": 46,
+      "name": "./src/view/routes/b.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "./routes/index": [
+    {
+      "id": 47,
+      "name": "./src/view/routes/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "/Users/luojh/my_project/ssr-template/src/index.js": [
+    {
+      "id": 82,
+      "name": "./src/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "./view/app": [
+    {
+      "id": 87,
+      "name": "./src/view/app.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "./router": [
+    {
+      "id": 88,
+      "name": "./src/view/router.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "../components/ScrollToTop": [
+    {
+      "id": 128,
+      "name": "./src/components/ScrollToTop.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "./store/index": [
+    {
+      "id": 131,
+      "name": "./src/store/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "../reducers/index": [
+    {
+      "id": 132,
+      "name": "./src/reducers/index.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "./login": [
+    {
+      "id": 135,
+      "name": "./src/reducers/login.js",
+      "file": "js/main.js",
+      "publicPath": "/js/main.js"
+    }
+  ],
+  "history": [
+    {
+      "id": 4,
+      "name": "./node_modules/history/esm/history.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/global": [
+    {
+      "id": 5,
+      "name": "./node_modules/core-js/internals/global.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/well-known-symbol": [
+    {
+      "id": 7,
+      "name": "./node_modules/core-js/internals/well-known-symbol.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "@babel/runtime/helpers/interopRequireDefault": [
+    {
+      "id": 8,
+      "name": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/Router": [
+    {
+      "id": 9,
+      "name": "./node_modules/react-router/es/Router.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/matchPath": [
+    {
+      "id": 10,
+      "name": "./node_modules/react-router/es/matchPath.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/has": [
+    {
+      "id": 11,
+      "name": "./node_modules/core-js/internals/has.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/generatePath": [
+    {
+      "id": 12,
+      "name": "./node_modules/react-router/es/generatePath.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "@babel/runtime/helpers/classCallCheck": [
+    {
+      "id": 13,
+      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "@babel/runtime/helpers/createClass": [
+    {
+      "id": 14,
+      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "@babel/runtime/helpers/possibleConstructorReturn": [
+    {
+      "id": 15,
+      "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "@babel/runtime/helpers/getPrototypeOf": [
+    {
+      "id": 16,
+      "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "@babel/runtime/helpers/inherits": [
+    {
+      "id": 17,
+      "name": "./node_modules/@babel/runtime/helpers/inherits.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "@babel/runtime/helpers/interopRequireWildcard": [
+    {
+      "id": 18,
+      "name": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/fails": [
+    {
+      "id": 19,
+      "name": "./node_modules/core-js/internals/fails.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/is-object": [
+    {
+      "id": 20,
+      "name": "./node_modules/core-js/internals/is-object.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/an-object": [
+    {
+      "id": 21,
+      "name": "./node_modules/core-js/internals/an-object.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/Route": [
+    {
+      "id": 22,
+      "name": "./node_modules/react-router/es/Route.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/descriptors": [
+    {
+      "id": 23,
+      "name": "./node_modules/core-js/internals/descriptors.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/classof-raw": [
+    {
+      "id": 24,
+      "name": "./node_modules/core-js/internals/classof-raw.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/get-built-in": [
+    {
+      "id": 25,
+      "name": "./node_modules/core-js/internals/get-built-in.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "path-to-regexp": [
+    {
+      "id": 26,
+      "name": "./node_modules/path-to-regexp/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/create-non-enumerable-property": [
+    {
+      "id": 28,
+      "name": "./node_modules/core-js/internals/create-non-enumerable-property.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/object-define-property": [
+    {
+      "id": 29,
+      "name": "./node_modules/core-js/internals/object-define-property.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/redefine": [
+    {
+      "id": 30,
+      "name": "./node_modules/core-js/internals/redefine.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/a-function": [
+    {
+      "id": 31,
+      "name": "./node_modules/core-js/internals/a-function.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/matchPath": [
+    {
+      "id": 32,
+      "name": "./node_modules/react-router/matchPath.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/MemoryRouter": [
+    {
+      "id": 33,
+      "name": "./node_modules/react-router/es/MemoryRouter.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/Prompt": [
+    {
+      "id": 34,
+      "name": "./node_modules/react-router/es/Prompt.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/Redirect": [
+    {
+      "id": 35,
+      "name": "./node_modules/react-router/es/Redirect.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/StaticRouter": [
+    {
+      "id": 36,
+      "name": "./node_modules/react-router/es/StaticRouter.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/Switch": [
+    {
+      "id": 37,
+      "name": "./node_modules/react-router/es/Switch.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/es/withRouter": [
+    {
+      "id": 38,
+      "name": "./node_modules/react-router/es/withRouter.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "tiny-invariant": [
+    {
+      "id": 39,
+      "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/to-string-tag-support": [
+    {
+      "id": 40,
+      "name": "./node_modules/core-js/internals/to-string-tag-support.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/set-global": [
+    {
+      "id": 41,
+      "name": "./node_modules/core-js/internals/set-global.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/inspect-source": [
+    {
+      "id": 42,
+      "name": "./node_modules/core-js/internals/inspect-source.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/object-get-own-property-descriptor": [
+    {
+      "id": 43,
+      "name": "./node_modules/core-js/internals/object-get-own-property-descriptor.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/to-indexed-object": [
+    {
+      "id": 44,
+      "name": "./node_modules/core-js/internals/to-indexed-object.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router-dom": [
+    {
+      "id": 48,
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "resolve-pathname": [
+    {
+      "id": 49,
+      "name": "./node_modules/resolve-pathname/esm/resolve-pathname.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "value-equal": [
+    {
+      "id": 50,
+      "name": "./node_modules/value-equal/esm/value-equal.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../helpers/typeof": [
+    {
+      "id": 51,
+      "name": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/shared": [
+    {
+      "id": 52,
+      "name": "./node_modules/core-js/internals/shared.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/is-pure": [
+    {
+      "id": 53,
+      "name": "./node_modules/core-js/internals/is-pure.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/shared-store": [
+    {
+      "id": 54,
+      "name": "./node_modules/core-js/internals/shared-store.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/ie8-dom-define": [
+    {
+      "id": 55,
+      "name": "./node_modules/core-js/internals/ie8-dom-define.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/document-create-element": [
+    {
+      "id": 56,
+      "name": "./node_modules/core-js/internals/document-create-element.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/to-primitive": [
+    {
+      "id": 57,
+      "name": "./node_modules/core-js/internals/to-primitive.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/create-property-descriptor": [
+    {
+      "id": 58,
+      "name": "./node_modules/core-js/internals/create-property-descriptor.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/uid": [
+    {
+      "id": 59,
+      "name": "./node_modules/core-js/internals/uid.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/native-symbol": [
+    {
+      "id": 60,
+      "name": "./node_modules/core-js/internals/native-symbol.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/internal-state": [
+    {
+      "id": 61,
+      "name": "./node_modules/core-js/internals/internal-state.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/hidden-keys": [
+    {
+      "id": 62,
+      "name": "./node_modules/core-js/internals/hidden-keys.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/classof": [
+    {
+      "id": 63,
+      "name": "./node_modules/core-js/internals/classof.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/to-length": [
+    {
+      "id": 64,
+      "name": "./node_modules/core-js/internals/to-length.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/to-integer": [
+    {
+      "id": 65,
+      "name": "./node_modules/core-js/internals/to-integer.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/is-forced": [
+    {
+      "id": 66,
+      "name": "./node_modules/core-js/internals/is-forced.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/iterators": [
+    {
+      "id": 67,
+      "name": "./node_modules/core-js/internals/iterators.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/function-bind-context": [
+    {
+      "id": 68,
+      "name": "./node_modules/core-js/internals/function-bind-context.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/task": [
+    {
+      "id": 69,
+      "name": "./node_modules/core-js/internals/task.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/engine-is-ios": [
+    {
+      "id": 70,
+      "name": "./node_modules/core-js/internals/engine-is-ios.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/engine-user-agent": [
+    {
+      "id": 71,
+      "name": "./node_modules/core-js/internals/engine-user-agent.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/new-promise-capability": [
+    {
+      "id": 72,
+      "name": "./node_modules/core-js/internals/new-promise-capability.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router-redux": [
+    {
+      "id": 74,
+      "name": "./node_modules/react-router-redux/lib/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./reducer": [
+    {
+      "id": 75,
+      "name": "./node_modules/react-router-redux/lib/reducer.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./actions": [
+    {
+      "id": 76,
+      "name": "./node_modules/react-router-redux/lib/actions.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "tiny-warning": [
+    {
+      "id": 77,
+      "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/Router": [
+    {
+      "id": 78,
+      "name": "./node_modules/react-router/Router.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/Switch": [
+    {
+      "id": 79,
+      "name": "./node_modules/react-router/Switch.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router/Route": [
+    {
+      "id": 80,
+      "name": "./node_modules/react-router/Route.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": 81,
+      "name": "./node_modules/react-router/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./assertThisInitialized": [
+    {
+      "id": 83,
+      "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./setPrototypeOf": [
+    {
+      "id": 84,
+      "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "core-js/modules/es.object.to-string": [
+    {
+      "id": 89,
+      "name": "./node_modules/core-js/modules/es.object.to-string.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/use-symbol-as-uid": [
+    {
+      "id": 91,
+      "name": "./node_modules/core-js/internals/use-symbol-as-uid.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/native-weak-map": [
+    {
+      "id": 92,
+      "name": "./node_modules/core-js/internals/native-weak-map.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/shared-key": [
+    {
+      "id": 93,
+      "name": "./node_modules/core-js/internals/shared-key.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/object-to-string": [
+    {
+      "id": 94,
+      "name": "./node_modules/core-js/internals/object-to-string.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "core-js/modules/es.promise": [
+    {
+      "id": 95,
+      "name": "./node_modules/core-js/modules/es.promise.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/export": [
+    {
+      "id": 96,
+      "name": "./node_modules/core-js/internals/export.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/object-property-is-enumerable": [
+    {
+      "id": 97,
+      "name": "./node_modules/core-js/internals/object-property-is-enumerable.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/indexed-object": [
+    {
+      "id": 98,
+      "name": "./node_modules/core-js/internals/indexed-object.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/require-object-coercible": [
+    {
+      "id": 99,
+      "name": "./node_modules/core-js/internals/require-object-coercible.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/copy-constructor-properties": [
+    {
+      "id": 100,
+      "name": "./node_modules/core-js/internals/copy-constructor-properties.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/own-keys": [
+    {
+      "id": 101,
+      "name": "./node_modules/core-js/internals/own-keys.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/path": [
+    {
+      "id": 102,
+      "name": "./node_modules/core-js/internals/path.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/object-get-own-property-names": [
+    {
+      "id": 103,
+      "name": "./node_modules/core-js/internals/object-get-own-property-names.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/object-keys-internal": [
+    {
+      "id": 104,
+      "name": "./node_modules/core-js/internals/object-keys-internal.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/array-includes": [
+    {
+      "id": 105,
+      "name": "./node_modules/core-js/internals/array-includes.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/to-absolute-index": [
+    {
+      "id": 106,
+      "name": "./node_modules/core-js/internals/to-absolute-index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/enum-bug-keys": [
+    {
+      "id": 107,
+      "name": "./node_modules/core-js/internals/enum-bug-keys.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/object-get-own-property-symbols": [
+    {
+      "id": 108,
+      "name": "./node_modules/core-js/internals/object-get-own-property-symbols.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/native-promise-constructor": [
+    {
+      "id": 109,
+      "name": "./node_modules/core-js/internals/native-promise-constructor.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/redefine-all": [
+    {
+      "id": 110,
+      "name": "./node_modules/core-js/internals/redefine-all.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/set-to-string-tag": [
+    {
+      "id": 111,
+      "name": "./node_modules/core-js/internals/set-to-string-tag.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/set-species": [
+    {
+      "id": 112,
+      "name": "./node_modules/core-js/internals/set-species.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/an-instance": [
+    {
+      "id": 113,
+      "name": "./node_modules/core-js/internals/an-instance.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/iterate": [
+    {
+      "id": 114,
+      "name": "./node_modules/core-js/internals/iterate.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/is-array-iterator-method": [
+    {
+      "id": 115,
+      "name": "./node_modules/core-js/internals/is-array-iterator-method.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/get-iterator-method": [
+    {
+      "id": 116,
+      "name": "./node_modules/core-js/internals/get-iterator-method.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/call-with-safe-iteration-closing": [
+    {
+      "id": 117,
+      "name": "./node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/check-correctness-of-iteration": [
+    {
+      "id": 118,
+      "name": "./node_modules/core-js/internals/check-correctness-of-iteration.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/species-constructor": [
+    {
+      "id": 119,
+      "name": "./node_modules/core-js/internals/species-constructor.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/html": [
+    {
+      "id": 120,
+      "name": "./node_modules/core-js/internals/html.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/microtask": [
+    {
+      "id": 121,
+      "name": "./node_modules/core-js/internals/microtask.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/promise-resolve": [
+    {
+      "id": 122,
+      "name": "./node_modules/core-js/internals/promise-resolve.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/host-report-errors": [
+    {
+      "id": 123,
+      "name": "./node_modules/core-js/internals/host-report-errors.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/perform": [
+    {
+      "id": 124,
+      "name": "./node_modules/core-js/internals/perform.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "../internals/engine-v8-version": [
+    {
+      "id": 125,
+      "name": "./node_modules/core-js/internals/engine-v8-version.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "isarray": [
+    {
+      "id": 126,
+      "name": "./node_modules/isarray/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-loadable": [
+    {
+      "id": 127,
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router": [
+    {
+      "id": 129,
+      "name": "./node_modules/react-router/es/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./sync": [
+    {
+      "id": 133,
+      "name": "./node_modules/react-router-redux/lib/sync.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./middleware": [
+    {
+      "id": 134,
+      "name": "./node_modules/react-router-redux/lib/middleware.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "history/createBrowserHistory": [
+    {
+      "id": 136,
+      "name": "./node_modules/history/createBrowserHistory.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./warnAboutDeprecatedCJSRequire.js": [
+    {
+      "id": 137,
+      "name": "./node_modules/history/warnAboutDeprecatedCJSRequire.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./index.js": [
+    {
+      "id": 138,
+      "name": "./node_modules/history/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "./cjs/history.min.js": [
+    {
+      "id": 139,
+      "name": "./node_modules/history/cjs/history.min.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "redux-log": [
+    {
+      "id": 140,
+      "name": "./node_modules/redux-log/lib/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ],
+  "react-router-config": [
+    {
+      "id": 141,
+      "name": "./node_modules/react-router-config/es/index.js",
+      "file": "js/vendors~main/0d1a9967c8809978316c.js",
+      "publicPath": "/js/vendors~main/0d1a9967c8809978316c.js"
+    }
+  ]
+}
