@@ -10,15 +10,24 @@ import stats from '../dist/react-loadable.json'
 // import { Provider } from 'react-redux';
 // import store from '../src/store/index'
 
-function templating(html, scripts) {
+function templating(html, scripts, css) {
   const template = fs.readFileSync(path.join(__dirname, '../dist/static/index.html'), 'utf-8');
-  return template.replace(/{{html}}/g, html).replace(/{{scrpts}}/, scripts);
+  return template.replace(/{{html}}/g, html).replace(/{{scrpts}}/, scripts).replace(/{{css}}/, css);
 }
-//把SSR过的组件都转成script标签扔到html里
-function generateBundleScripts(bundles) {
-  return bundles.filter(bundle => bundle.file.endsWith('.js')).map(bundle => {
-    return `<script type="text/javascript" src="${bundle.file}"></script>\n`;
+//把SSR过的组件都转成script,css标签扔到html里
+function generateBundleJsAndCss(bundles) {
+  let jsAndCssObj = {
+    js: '',
+    css: '',
+  };
+  bundles.filter(bundle => {
+    if (bundle.file.endsWith('.js')) {
+      jsAndCssObj.js += `<script type="text/javascript" src="${bundle.file}"></script>\n`
+    } else if (bundle.file.endsWith('.css')) {
+      jsAndCssObj.css += `<link rel="stylesheet" href=${bundle.file} type="text/css" />\n`
+    }
   });
+  return jsAndCssObj;
 }
 //中间件，构造render方法，添加模版
 export default function (ctx, next) {
@@ -35,17 +44,15 @@ export default function (ctx, next) {
           </StaticRouter>
         </Loadable.Capture>
       )
-      console.log(modules)
       //需要插入的script
       let bundles = getBundles(stats, modules);
-      const scripts = generateBundleScripts(bundles);
-      console.log(scripts, bundles)
-      const body = templating(html, scripts)
+      const { js, css } = generateBundleJsAndCss(bundles);
+      const body = templating(html, js, css)
       ctx.body = body
     }
   } catch (err) {
     ctx.body = templating({ html: err.message });
   }
-  ctx.type = 'text/html';
+  // ctx.type = 'text/html';
   return next();
 }

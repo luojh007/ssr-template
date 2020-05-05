@@ -1,4 +1,4 @@
-// require('css-modules-require-hook/preset');
+require('css-modules-require-hook/preset');
 var less = require('postcss-less')
 require('css-modules-require-hook')({
   extensions: ['.less', '.css'],

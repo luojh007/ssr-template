@@ -2,10 +2,12 @@ import React from 'react';
 import { renderRoutes } from 'react-router-config'
 import Loadable from 'react-loadable';
 import ScrollToTop from '../components/ScrollToTop'
+import Home from "./routes/home";
 const { Spin } = require('antd')
+// import { Spin } from "antd";
 const Root = ({ route }) => (
   <ScrollToTop>
-    <div>公共路由</div>
+    <Home/>
     {renderRoutes(route.routes)}
   </ScrollToTop>
 )
@@ -31,8 +33,8 @@ function RootRouter() {
         path: '/index.html',
         component: Loadable({
           loader: () => import('./routes'),
-          modules: ['./routes'],
-          webpack: () => [require.resolveWeak('./routes')],
+          // modules: ['./routes'],
+          // webpack: () => [require.resolveWeak('./routes')],
           loading: Loading,
         })
       },
@@ -40,8 +42,8 @@ function RootRouter() {
         path: '/a.html',
         component: Loadable({
           loader: () => import('./routes/a'),
-          modules: ['./routes/a'],
-          webpack: () => [require.resolveWeak('./routes/a')],
+          // modules: ['./routes/a'],
+          // webpack: () => [require.resolveWeak('./routes/a')],
           loading: Loading,
         })
       },
@@ -49,8 +51,8 @@ function RootRouter() {
         path: '/b.html',
         component: Loadable({
           loader: () => import('./routes/b'),
-          modules: ['./routes/b'],
-          webpack: () => [require.resolveWeak('./routes/b')],
+          // modules: ['./routes/b'],
+          // webpack: () => [require.resolveWeak('./routes/b')],
           loading: Loading,
         })
       },
