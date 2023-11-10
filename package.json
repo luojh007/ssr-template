@@ -52,7 +52,7 @@
   "dependencies": {
     "antd": "^3.10.0",
     "asset-require-hook": "^1.2.0",
-    "axios": "0.19.0",
+    "axios": "1.6.0",
     "chalk": "^2.4.2",
     "connect-history-api-fallback": "^1.5.0",
     "cross-env": "^6.0.3",
